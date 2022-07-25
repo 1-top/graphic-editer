@@ -1,0 +1,58 @@
+menu:
+  file:
+    file: File
+    new: New
+    open: Open
+    close: Close
+    save: Save
+    save_as: Save as
+    print: Print
+    quit: Quit
+  edit:
+    select_all: Select All
+    deselect_all: Deselect All
+    bring_to_front: Bring to front
+    bring_to_forward: Bring to forward
+    send_to_back: Send to back
+    send_to_backward: Send to backward
+    edit: Eidt
+    undo: Undo
+    redo: Redo
+    cut: Cut
+    copy: Copy
+    paste: Paste
+    group: Group
+    un_group: Un group
+
+tool:
+  single_selection: Single Selection
+  multi_selection: Multi Selection
+  line: Line
+  rectangle: Rectangle
+  ellipse: Ellipse
+  triangle: Triangle
+  polygon: Polygon
+  polyline: Polyline
+  image: Image
+  pencil: Pencil
+  eraser: Eraser
+  background_color: Background Color
+  line_color: Line Color
+  fill_color: Plain Color
+
+shape:
+  attribute:
+    line: |
+      Line:
+    fill: |
+      Fill:
+
+dialog:
+  error: Error
+  information: Info
+  save:
+    'yes': Save
+    'no': Don't Save
+    message: |
+      Want to save your changes to %s?
+      Your changes will be lost if you don't save them.

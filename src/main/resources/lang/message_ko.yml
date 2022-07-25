@@ -1,0 +1,58 @@
+menu:
+  file:
+    file: 파일
+    new: 새로 만들기
+    open: 열기
+    close: 닫기
+    save: 저장
+    save_as: 다른 이름으로 저장
+    print: 프린트
+    quit: 종료
+  edit:
+    select_all: 전체 선택
+    deselect_all: 전체 선택 해제
+    bring_to_front: 앞으로 가져오기
+    bring_to_forward: 맨 앞으로 가져오기
+    send_to_back: 뒤로 보내기
+    send_to_backward: 맨 뒤로 보내기
+    edit: 편집
+    undo: 취소
+    redo: 되돌리기
+    cut: 잘라내기
+    copy: 복사
+    paste: 붙여넣기
+    group: 그룹화
+    un_group: 그룹 해제
+
+tool:
+  single_selection: 단일 선택
+  multi_selection: 다중 선택
+  line: 선
+  rectangle: 네모
+  ellipse: 타원형
+  triangle: 삼각형
+  polygon: 다각형
+  polyline: 다각선
+  image: 이미지
+  pencil: 펜
+  eraser: 지우개
+  background_color: 배경색
+  line_color: 선 색
+  fill_color: 면 색
+
+shape:
+  attribute:
+    line: |
+      선:
+    fill: |
+      면:
+
+dialog:
+  error: 에러
+  information: 안내
+  save:
+    'yes': 저장
+    'no': 저장 안 함
+    message: |
+      '%s'의 변경 내용을 저장하시겠습니까?
+      저장하지 않으면 변경 내용이 손실됩니다.
